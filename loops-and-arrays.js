@@ -69,6 +69,7 @@ for (let i = 0; i < numbers.length; i++) {
 // }
 
 
+
 //SECOND IDEA
 
 const squares = [30, 2, 8, 24, 11];

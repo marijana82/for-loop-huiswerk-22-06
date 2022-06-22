@@ -51,9 +51,9 @@ const number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 for (let i = 0; i < number.length; i++) {
     if (number[i] % 2 === 0) {
-        console.log(number[i] = number[i] + 1 + " is even.");
+        console.log(number[i] = number[i] + " is even.");
     } else {
-        console.log(number[i] = number[i] + 1 + " is oneven.");
+        console.log(number[i] = number[i] + " is oneven.");
     }
 }
 
@@ -79,13 +79,16 @@ const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] < 3) {
-        console.log(numbers[i]);
+    console.log(numbers[i]);
     } else if (numbers[i] >= 3) {
-        console.log("> " + numbers[i]);
-    } else {
-        console.log("> " + numbers[i]);
+        console.log("> " + numbers[i])
+    } else if (numbers[i] >= 6) {
+        console.log(">> " + numbers[i])
     }
-
 }
+
+
+
+
 
 
