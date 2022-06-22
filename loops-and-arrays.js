@@ -52,6 +52,7 @@ for (let i = 0; i < numbers.length; i++) {
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
+// FIRST IDEA
 // const squares = [30, 2, 8, 24, 11];
 // change "null" with array values
 // const length = "null"
@@ -66,6 +67,9 @@ for (let i = 0; i < numbers.length; i++) {
 // for (let i = 0; i < squares.length; i++) {
 //    console.log("Het volume van " + squares[i] + " is " + volume[i]);
 // }
+
+
+//SECOND IDEA
 
 const squares = [30, 2, 8, 24, 11];
 
