@@ -6,6 +6,12 @@
 // Hoera!
 // ==========================================
 
+const exclamation = ["Hoera!", "Hoera!", "Hoera!"];
+
+for (let i = 0; i < exclamation.length; i++) {
+console.log(exclamation[i]);
+}
+
 
 
 // ==========================================
@@ -17,6 +23,13 @@
 // loop...
 // klaar!
  // ==========================================
+
+const loopKlaar = ["loop...", "loop...", "loop...", "loop...", "klaar!"];
+
+for (let i = 0; i < loopKlaar.length; i++) {
+console.log(loopKlaar[i]);
+}
+
 
 
 
@@ -32,6 +45,17 @@
 
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over. Google daarom eens naar 'mdn webdocs remainder operator'.
 // ==========================================
+
+
+const number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+for (let i = 0; i < number.length; i++) {
+    if (number[i] % 2 === 0) {
+        console.log(number[i] = number[i] + " is even.");
+    } else {
+        console.log(number[i] = number[i] + " is oneven.");
+    }
+}
 
 
 
@@ -50,4 +74,21 @@
 // >> 8
 // >> 9
 // ==========================================
+
+const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] < 3) {
+    console.log(numbers[i]);
+    } else if (numbers[i] >= 3) {
+        console.log("> " + numbers[i])
+    } else if (numbers[i] >= 6) {
+        console.log(">> " + numbers[i])
+    }
+}
+
+
+
+
+
 
